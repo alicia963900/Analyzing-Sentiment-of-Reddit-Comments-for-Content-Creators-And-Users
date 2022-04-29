@@ -10,6 +10,7 @@ Nowadays, content creation comes in all shapes and sizes and the trending topics
 We would like to create a tool that is able to address all the possible problems mentioned above by using sentiment analysis and training a deep learning model. Firstly, we want to assist creators to target their audience more effectively. Second, we are able to help creators to reduce the time spent on contributing content, so they could have more time to adjust their content to target audiences accurately.
 ## **Dataset**
 GoEmotions Dataset
+https://github.com/google-research/google-research/tree/master/goemotions
 
 - The datasets combined contain approximately 70,000 rows and 37 columns. Some useful columns are the whole comment and which subreddit it is from. The dataset also provides the timestamp of the comment.
 - Columns from 'admiration', 'amusement' to 'neutral' are dummy variables that label the comments’ emotions. (The emotion categories are admiration, amusement, anger, annoyance, approval, caring, confusion, curiosity, desire, disappointment, disapproval, disgust, embarrassment, excitement, fear, gratitude, grief, joy, love, nervousness, optimism, pride, realization, relief, remorse, sadness, surprise.)
